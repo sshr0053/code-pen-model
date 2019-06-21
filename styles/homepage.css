@@ -1,0 +1,25 @@
+
+body {
+    color: black;
+}
+.navigation-wrapper > .nav-link > .nav-link-left img{
+    height: 100px;
+    padding-right: 50px;
+    color: white;
+}
+ 
+.navigation-wrapper > .nav-link > .nav-link-left {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-wrapper > .nav-link > .nav-link-left a {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    grid-template-rows: 200px;
+    text-decoration: none;
+    color: white;
+
+}
+
