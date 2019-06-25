@@ -30,6 +30,7 @@
     font-weight: 500;
     font-size: 20px;
     font-family: sans-serif;
+
 }
 
 .navigation-wrapper > .nav-link > .nav-link-left h1 {
@@ -56,14 +57,13 @@ font-size: 25px;
     margin-left: 10px;
     text-decoration: none;
     background-color: black;
-    justify-content: space-between;
 }
 
 .navigation-wrapper > .nav-link > .nav-link-right button {
     color: white;
     background-color: #585958;
-    height: 80px;
-    width: 110px;
+    height: 60px;
+    width: 100px;
     border: none;
     font-size: 20px;
     border-radius: 0.5px;
@@ -87,6 +87,7 @@ font-size: 25px;
 .home-page-content-wrapper > .home-page-content h2{
     color: #d4d4d4;
     background-color: #393a38;
+    font-size: 20px;
 }
 
 .home-page-content-wrapper > .home-page-content > .learn-more-btn{
@@ -107,5 +108,5 @@ font-size: 25px;
     padding-left: 35px;
     background-color: #616360;
     color: white;
-    flex-direction: row;
+    align-content: space-between;
 }
