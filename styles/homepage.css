@@ -37,7 +37,7 @@
 }
 
 .navigation-wrapper > .nav-link > .nav-link-left h1 {
-color: #e6d12d;
+color: #fce478;
 font-family: sans-serif;
 font-weight: none;
 font-size: 25px;
@@ -74,13 +74,14 @@ columns: 1;
     display: flex;
     align-content: center;
     justify-content: space-around;
+    text-decoration: none;
 }
 
 .navigation-wrapper > .nav-link > .nav-link-right button {
     color: white;
     background-color: #585958;
     height: 60px;
-    width: 100px;
+    width: 140px;
     border: none;
     font-size: 20px;
     border-radius: 2px;
@@ -99,33 +100,59 @@ columns: 1;
     border-radius: 2px;
     display: grid;
     justify-content: space-between;
+    padding-left: 200px;
 }
 
-.navigation-wrapper > .nav-link > .nav-link-right > i {
-    color: #3ad869;
+.navigation-wrapper > .nav-link > .nav-link-right > .button > .sign-up{
+    color: white;
+    background-color: #585958;
+    height: 60px;
+    width: 90px;
+    border: none;
+    font-size: 20px;
+    border-radius: 2px;
+    display: grid;
+    justify-content: space-between;
 }
+
+.navigation-wrapper > .nav-link > .nav-link-right > .fa-angle-down {
+    color: limegreen;
+    }
+    
+.navigation-wrapper > .nav-link > .nav-link-right > .fa-search {
+    color: grey;
+    font-size: 60px;
+    }
+    
+.navigation-wrapper > .nav-link > .nav-link-right >  a {
+    text-decoration: none;
+    }
+
+    .home-page-content-wrapper {
+        display: flex;
+        align-content: stretch;
+    }
 
 .home-page-content-wrapper > .home-page-content {
     color: white;
     background-color: #393a38;
     display: flex;
     flex-wrap: wrap;
-    justify-items: auto;
     align-items: stretch;
     justify-content: center;
+    align-content: space-around;
+    border-spacing: 20px;
 }
 
-.home-page-content-wrapper > .home-page-content > .placeholder{
-    display: flex;
-    justify-content: flex-end;
-}
 
 .home-page-content-wrapper > .home-page-content h1{
     color: #d4d4d4;
     background-color: #393a38;
-    font-size: 40px;
-    display: grid;
+    font-size: 35px;
+    display: flex;
     justify-items: stretch;
+    align-items: stretch;
+    align-self: start;
 }
 
 
@@ -134,9 +161,12 @@ columns: 1;
     color: #d4d4d4;
     background-color: #393a38;
     font-size: 20px;
+    display: flex;
+    align-content: flex-start;
 }
 
-.home-page-content-wrapper > .home-page-content > .signup-btn{
+
+.home-page-content-wrapper > .home-page-content > .signup-btn {
     height: 70px;
     width: 250px;
     background-color: #3ad869;
@@ -144,7 +174,10 @@ columns: 1;
     font-size: 25px;
     font-weight: 900px;
     border: none;
+    outline: none;
+    transition: 0.3s
 }
+
 .home-page-content-wrapper > .home-page-content > .learn-more-btn{
     height: 60px;
     width: 170px;
@@ -154,21 +187,17 @@ columns: 1;
     font-size: 25px;
     font-weight: 900px;
     border: none;
+    outline: none;
+    transition: 0.3s
 }
 
 .footer-wrapper > .footer {
     display: flex;
-    align-items: flex-end;
     font-size: 13px;
     padding-left: 35px;
     background-color: #3c3f3a;
     color: white;
     align-content: stretch;
-    justify-content: space-between;
-}
-
-.footer-wrapper > .footer > h1 > .divider{
-    border-right: 1px;
-    border-color: white;
-    border-right-style: solid;
+    justify-content: space-between; 
+    box-decoration-break: 20px, solid , white;
 }
