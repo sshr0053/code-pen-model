@@ -43,8 +43,16 @@ body{
     font-size: 15px;
 }
 
-.navigation-wrapper > .nav-link > .nav-link-left > .spark a {
+.navigation-wrapper > .nav-link > .nav-link-left > .posts a {
     color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+
+
+.navigation-wrapper > .nav-link > .nav-link-left > .spark a {
+    color: grey;
     text-decoration: none;
     font-size: 14px;
 }
