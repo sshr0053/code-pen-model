@@ -83,7 +83,7 @@ body{
     color: white;
     text-decoration: none;
     padding-right: 10px;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .tabs-wrapper > .spark a {
@@ -119,10 +119,12 @@ width: 48%;
 .nav-right-wrapper > .btn button {
     height: 50px;
     width: 120px;
-    background-color: #5c5a5a;
+    background-color: #4d4c4c;
     color: white;
     border-radius: 1.8px;
     border: none;
+    
+    font-size: 20px;
 }
 
 .nav-right-wrapper > .btn button > .fa-angle-down {
