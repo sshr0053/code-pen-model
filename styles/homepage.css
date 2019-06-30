@@ -118,7 +118,7 @@ width: 48%;
 
 .nav-right-wrapper > .btn button {
     height: 50px;
-    width: 120px;
+    width: 137px;
     background-color: #4d4c4c;
     color: white;
     border-radius: 1.8px;
@@ -136,6 +136,12 @@ width: 48%;
 .nav-right-wrapper > .btn i {
     font-size: 30px;
     color: #949191;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
 }
 
 button {
