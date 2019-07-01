@@ -87,7 +87,7 @@ body{
 }
 
 .tabs-wrapper > .spark a {
-    color:#949191;
+    color:#aaaaaa;
     text-decoration: none;
     display: flex;
     padding-left: 20px;
@@ -141,7 +141,26 @@ width: 48%;
 .footer-wrapper {
     display: flex;
     justify-content: center;
-    align-items: center;  
+    align-items: center; 
+    background-color: #5a5a5a;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer > .footer-content {
+    color: white;
+    width: 330px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    font-size: 1.5em;
+    border: 1px solid rgb(153, 151, 151);
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 button {
