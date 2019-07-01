@@ -167,6 +167,24 @@ width: 48%;
     padding-bottom: 10px;
 }
 
+.content-container {
+  grid-area: content-container;
+}
+.image-container {
+    grid-area: image-container;
+  }
+.button-container {
+  grid-area: button-container;
+}
+.content-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "content-container content-container image-container "
+    "button-container button-container image-container"
+}
+
 button {
     cursor: pointer;
 }
