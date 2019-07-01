@@ -148,6 +148,13 @@ width: 48%;
 }
 .image-container {
     grid-area: image-container;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.placeholder {
+    height: 100%;
 }
 .button-container {
     grid-area: button-container;
