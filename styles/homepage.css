@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    background-color: black;
 }
 
 /* .navigation-wrapper > .nav-link > .nav-link-left {
@@ -123,7 +124,7 @@ width: 48%;
     color: white;
     border-radius: 1.8px;
     border: none;
-    
+    transition: 0.4s;
     font-size: 20px;
 }
 
@@ -145,20 +146,89 @@ width: 48%;
 
 .content-container {
     grid-area: content-container;
-    color: white;
-}
-
-.content-container > .content-Header {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
+
+
+
+.content-container > .content-Header {
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+    font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+}
+
+
+
+.content-container > .content-Header > .header-top  {
+    color: white;
+    display: flex;
+    align-content: flex-start;
+}
+
+.header-top h1 {
+    font-weight: 100;
+}
+
+.header-top span {
+    font-weight: 900;
+}
+
+.header-bottom h2 {
+    font-weight: 100;
+}
+
+
+.content-container > .content-Header > .header-bottom {
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    align-content: flex-end;
+}
+
+
+
 .image-container {
+    grid-area: image-container;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+
     grid-area: image-container;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+    flex-direction: column;
+}
+
+.image-container > .img-text {
+    width: 583px;
+    color: white;
+    font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+    font-weight: 900;
+}
+
+
+.image-container span {
+    color: #77d1f1;
+    /* display: flex;
+    align-content: flex-start; */
+    
+}
+.image-container img {
+    /* display: flex;
+    align-content: flex-end;
+    box-shadow: #4b4b4b; */
+    margin-top: 10px;
+    height: 500px;
 }
 
 
@@ -167,17 +237,19 @@ width: 48%;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 40px;
 }
 
 .button-container > .signup-btn button{
     background-color: #6bdf90;
     border: none;
-    width: 200px;
-    height: 50px;
+    width: 250px;
+    height: 65px;
     border-radius: 1.8px;
-    font-size: 1.375em;
+    font-size: 1.700em;
     font-weight: 700;
     margin-right: 10px;
+    transition: 0.4s;
 }
 
 .button-container > .learn-more-btn button{
@@ -185,14 +257,17 @@ width: 48%;
     color: white;
     border: none;
     width: 154px;
-    height: 43px;
+    height: 58px;
     border-radius: 1.8px;
-    font-size: 1.351em;
+    font-size: 1.400em;
     font-weight: 700;
+    transition: 0.4s;
 }
 
+
 .content-wrapper {
-    background-image: radial-gradient(circle at 5% 5%, grey, black);
+    background-image: radial-gradient(circle at 7% 8%, grey, black);
+    height: 600px;
     display: grid;
     grid-template-columns: 1fr 1fr 2fr;
     grid-template-rows: auto;
@@ -205,7 +280,7 @@ width: 48%;
     display: flex;
     justify-content: center;
     align-items: center; 
-    background-color: #535353;
+    background-color: #4b4b4b;
 }
 
 .footer {
